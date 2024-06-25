@@ -1,0 +1,58 @@
+@charset "ISO-8859-1";
+*{
+	font-family: 'Kaushan Script', cursive;
+}
+
+a.green {
+  background-color: #4CAF50;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+a.green:hover, a.green:active {
+  background-color:#4CAF50;
+}
+a.red {
+  background-color: #FF0000;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+   border-radius: 7px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+a.red:hover, a.red:active {
+  background-color:#FF0000;
+}
+a.gray:hover, a.gray:active {
+  background-color:gray;
+}
+.blue{
+  background-color: #008CBA;
+  color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px;
+    font-size: 18px;
+    cursor: pointer;
+    float: right; 
+    margin-right: 10px;
+}
+a.gray{
+  background-color:gray;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+   border-radius: 7px;
+    font-size: 18px;
+    cursor: pointer;
+    float: right; margin-right: 10px;
+}
+.pooja li a{
+	margin-top: 4px;
+}
