@@ -1,0 +1,52 @@
+Overview
+The Library Management System is a web application designed to help libraries manage their book inventory, member information, and borrowing transactions. This project leverages Java technologies including JDBC for database connectivity and JSP for server-side scripting, along with HTML and CSS for the frontend.
+
+Features
+1.User Authentication: Secure login and registration.
+2.Book Management: Add, update, delete, and get the books in the library’s inventory.
+3.Transaction Management: Edit and delete the record.
+
+Technologies Used
+1.Java: Core programming language.
+2.JDBC: Database connectivity.
+3.JSP: Server-side scripting.
+4.HTML5: Structure of the web pages.
+5.CSS3: Styling of the web pages.
+6.MySQL: Relational database management system.
+7.Apache Tomcat: Web server.
+
+Database Setup
+create a database and in that create two tables i.e book and user for the storing the details of user and books.
+
+Build and Deploy
+Use Apache Tomcat to deploy the application.
+
+BookNook/
+├── src/
+│   ├── com.demo.connection/
+│   │   └── myConnection.java
+│   ├── com.demo.controller/
+│   │   ├── addBook_servlet.java
+│   │   ├── delete_servlet.java
+│   │   ├── login_servlet.java
+│   │   ├── logout_servlet.java
+│   │   ├── register_servlet.java
+│   │   └── update_servlet.java
+│   ├── com.demo.dao/
+│   │   ├── bookDao.java
+│   │   └── userDao.java
+│   ├── com.demo.model/
+│   │   ├── book.java
+│   │   └── user.java
+├── main.webapp/
+│   ├── WEB-INF/
+│   │   └── addBook.jsp
+│   ├── book.jpg
+│   ├── edit.jsp
+│   ├── footer.jsp
+│   ├── index.jsp
+│   ├── login.jsp
+│   ├── navbar.jsp
+│   ├── register.jsp
+│   ├── style.css
+│   └── viewBook.jsp
